@@ -1,0 +1,285 @@
+body {
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  z-index: 2;
+  padding: 20px;
+  backdrop-filter: blur(10px);
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
+
+.message {
+  font-size: 1.2em;
+  line-height: 1.6;
+  max-width: 600px;
+}
+
+/* Trái tim bay */
+.heart {
+  position: absolute;
+  color: #ff3e6c;
+  font-size: 20px;
+  animation: float 5s linear infinite;
+  opacity: 0.8;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100vh) scale(1.5);
+    opacity: 0;
+  }
+}
+
+/* Nút điều khiển nhạc */
+.music-controls {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 40px;
+  padding: 10px 15px;
+  box-shadow: 0 0 10px rgba(255, 62, 108, 0.5);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 3;
+}
+
+#musicBtn {
+  border: none;
+  background: #ff3e6c;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#musicBtn:hover {
+  background: #ff5f85;
+}
+
+#volumeControl {
+  width: 100px;
+  cursor: pointer;
+}
+body {
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  z-index: 2;
+  padding: 20px;
+  backdrop-filter: blur(10px);
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
+
+.message {
+  font-size: 1.2em;
+  line-height: 1.6;
+  max-width: 600px;
+}
+
+/* Trái tim bay */
+.heart {
+  position: absolute;
+  color: #ff3e6c;
+  font-size: 20px;
+  animation: float 5s linear infinite;
+  opacity: 0.8;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100vh) scale(1.5);
+    opacity: 0;
+  }
+}
+
+/* Nút điều khiển nhạc */
+.music-controls {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 40px;
+  padding: 10px 15px;
+  box-shadow: 0 0 10px rgba(255, 62, 108, 0.5);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 3;
+}
+
+#musicBtn {
+  border: none;
+  background: #ff3e6c;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+#musicBtn:hover {
+  background: #ff5f85;
+  transform: scale(1.05);
+}
+
+#volumeControl {
+  width: 100px;
+  cursor: pointer;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Dancing Script", cursive, "Poppins", sans-serif;
+  background: linear-gradient(135deg, #fceabb, #f8b500);
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* Thiệp */
+.card {
+  background: rgba(255, 255, 255, 0.9);
+  border: 5px solid #ff8fa3;
+  border-radius: 30px;
+  box-shadow: 0 0 30px rgba(255, 105, 135, 0.5);
+  padding: 40px 60px;
+  max-width: 600px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  animation: fadeIn 2s ease-in-out;
+}
+
+h1 {
+  color: #ff3e6c;
+  font-size: 2.2em;
+  margin-bottom: 10px;
+}
+
+.intro {
+  font-size: 1.2em;
+  color: #ff5f85;
+  margin-bottom: 20px;
+}
+
+.message {
+  font-size: 1.1em;
+  color: #444;
+  line-height: 1.6;
+}
+
+.from {
+  margin-top: 25px;
+  font-style: italic;
+  color: #ff3e6c;
+  font-size: 1.2em;
+}
+
+/* Trái tim bay */
+.heart {
+  position: absolute;
+  color: #ff3e6c;
+  font-size: 22px;
+  animation: float 6s linear infinite;
+  opacity: 0.8;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100vh) scale(1.5);
+    opacity: 0;
+  }
+}
+
+/* Nút nhạc */
+.music-controls {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 40px;
+  padding: 10px 15px;
+  box-shadow: 0 0 10px rgba(255, 62, 108, 0.5);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 5;
+}
+
+#musicBtn {
+  border: none;
+  background: #ff3e6c;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#musicBtn:hover {
+  background: #ff6587;
+  transform: scale(1.05);
+}
+
+#volumeControl {
+  width: 100px;
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+}
